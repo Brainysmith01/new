@@ -1,0 +1,56 @@
+body{
+    background-image: url(./FB_IMG_16640650022840989.jpg), url(./FB_IMG_16640650066054239.jpg), url(./FB_IMG_16640650066054239.jpg);
+    background-repeat: no-repeat,no-repeat, no-repeat;
+    background-size: cover;
+}
+
+#main{
+    background-color: rgba(255, 255, 255, 0.496);
+    height: 400px;
+    width: 500px;
+    margin: 3%;
+    border-radius: 10px 0px 10px;
+    overflow: auto;
+    text-align: center;
+    
+}
+
+li{
+    display: inline;
+    padding: 3%;
+}
+
+li:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10%;
+    text-transform: capitalize;
+}
+
+#wed{
+    width: 20%; 
+    height: 30%;
+   float: right;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;    
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 300%;    
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    color: white;
+}
+
+h1:hover{
+    background-color: rgb(36, 64, 20);
+    color: blueviolet;
+}
